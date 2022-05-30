@@ -1,0 +1,10 @@
+# Global
+*
+!.gitignore
+
+# Folders
+!/templates
+
+# Files
+!/index.html
+!/index.js

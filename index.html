@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>ResumeStudio</title>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <label>
+        Template
+        <select name="settings.template">
+          <option value="creative">Creative</option>
+          <option value="neutral">Neutral</option>
+        </select>
+      </label>
+      <label>
+        First name
+        <input name="profile.firstName" value="Théophile" />
+      </label>
+      <label>
+        Job title
+        <input name="profile.jobTitle" value="Web developer" />
+      </label>
+    </main>
+    <aside>
+      <iframe
+        aria-hidden="true"
+        sandbox="allow-same-origin"
+        src="templates/creative/"
+        tabindex="-1"
+      ></iframe>
+    </aside>
+  </body>
+</html>
