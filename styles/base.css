@@ -18,11 +18,12 @@ html {
 html[data-mode="light"] {
   --palette-background-default: hsl(200, 37%, 97%);
   --palette-background-paper: white;
-  --palette-primary-main: hsl(221, 96%, 57%); 
+  --palette-primary-main: hsl(221, 96%, 57%);
   --palette-text-primary: hsl(208, 78%, 12%);
 }
 
-:is(input,select) {
+input,
+select {
   background-color: var(--palette-background-default);
   border: none;
   border-radius: 0.5rem;
@@ -34,7 +35,7 @@ html[data-mode="light"] {
   transition: outline-color 200ms;
 }
 
-:is(input,select):focus-visible {
+:is(input, select):focus-visible {
   outline-color: var(--palette-primary-main);
 }
 
