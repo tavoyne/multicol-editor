@@ -25,6 +25,7 @@ html[data-mode="light"] {
 
 input,
 select {
+  appearance: none;
   background-color: var(--palette-background-default);
   border: none;
   border-radius: var(--shape-border-radius);
