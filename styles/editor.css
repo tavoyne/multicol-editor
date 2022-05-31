@@ -1,0 +1,22 @@
+#contentPanel {
+  background-color: white;
+  border-radius: 0.5rem;
+  display: grid;
+  gap: 2rem;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem;
+}
+
+#preview {
+  aspect-ratio: calc(21 / 29.7);
+  border: none;
+  border-radius: 0.5rem;
+  height: 80%;
+}
+
+#previewPanel {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}

@@ -3,6 +3,7 @@
 !.gitignore
 
 # Folders
+!/styles
 !/templates
 
 # Files
