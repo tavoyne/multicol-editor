@@ -20,13 +20,14 @@ html[data-mode="light"] {
   --palette-background-paper: white;
   --palette-primary-main: hsl(221, 96%, 57%);
   --palette-text-primary: hsl(208, 78%, 12%);
+  --shape-border-radius: 0.5rem;
 }
 
 input,
 select {
   background-color: var(--palette-background-default);
   border: none;
-  border-radius: 0.5rem;
+  border-radius: var(--shape-border-radius);
   color: unset;
   font-family: unset;
   font-size: unset;
