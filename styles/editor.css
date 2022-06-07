@@ -9,8 +9,9 @@
 }
 
 #preview {
+  all: initial;
   aspect-ratio: calc(21 / 29.7);
-  border: none;
+  background-color: white;
   border-radius: var(--shape-border-radius);
   height: 80%;
 }
