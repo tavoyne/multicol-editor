@@ -2,8 +2,8 @@
 <html data-mode="light" lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="🚀" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="description" content="Build a standard-compliant resume in minutes. Download it as a PDF or share it as a link." />
+    <meta name="viewport" content="width=device-width" />
     <title>ResumeStudio</title>
     <link rel="icon" href="favicon-dark.png" />
     <link rel="stylesheet" href="styles/base.css" />
@@ -11,7 +11,7 @@
     <script defer src="index.js"></script>
   </head>
   <body>
-    <main id="contentPanel">
+    <main id="content-panel">
       <label>
         Template
         <select name="settings.template">
@@ -28,13 +28,12 @@
         <input name="profile.jobTitle" value="Web developer" />
       </label>
     </main>
-    <aside id="previewPanel">
+    <aside id="preview-panel">
       <iframe
         aria-hidden="true"
         id="preview"
         sandbox="allow-same-origin"
         src="templates/creative/"
-        tabindex="-1"
       ></iframe>
     </aside>
   </body>

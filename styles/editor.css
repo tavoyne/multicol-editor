@@ -1,4 +1,4 @@
-#contentPanel {
+#content-panel {
   background-color: white;
   border-radius: var(--shape-border-radius);
   display: grid;
@@ -15,7 +15,7 @@
   height: 80%;
 }
 
-#previewPanel {
+#preview-panel {
   align-items: center;
   display: flex;
   justify-content: space-around;
